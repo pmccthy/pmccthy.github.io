@@ -1,0 +1,202 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Define colors
+$brand-color:      #2a7f62;
+$brand-color-light: #5ba39e;
+$text-color:       #222;
+$background-color: #fafbfc;
+$grey-color:       #828282;
+$grey-color-light: #e8e8e8;
+$grey-color-dark:  #424242;
+
+// Width of the content area
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Import minima theme
+@import "minima";
+
+// Custom overrides for clean, academic look
+
+html, body {
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(42, 127, 98, 0.3);
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-bottom-color: $brand-color;
+  }
+}
+
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid $grey-color-light;
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+.site-title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: $text-color;
+
+  &:visited {
+    color: $text-color;
+  }
+}
+
+.site-nav {
+  line-height: 1.5;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    padding: 0 15px;
+    border-bottom: none;
+    font-weight: 500;
+    font-size: 16px;
+
+    &:hover {
+      border-bottom: 2px solid $brand-color;
+      padding-bottom: 2px;
+    }
+  }
+}
+
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  background-color: #fff;
+  padding: 2rem 0;
+  font-size: 14px;
+  color: $grey-color;
+}
+
+.post-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: $grey-color;
+  margin-bottom: 2rem;
+}
+
+.post-content {
+  font-size: 16px;
+  line-height: 1.7;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 2rem;
+  }
+}
+
+.post-list-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+// Project styles
+.project-card {
+  border: 1px solid $grey-color-light;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-color: $brand-color;
+  }
+}
+
+.project-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+
+  a {
+    border: none;
+  }
+}
+
+.project-meta {
+  font-size: 14px;
+  color: $grey-color;
+  margin-bottom: 1rem;
+}
+
+// Home page
+.home {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $horizontal-spacing-unit;
+}
+
+// About section
+.about-section {
+  margin: 3rem 0;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: $on-palm) {
+  .site-nav .page-link {
+    padding: 0 10px;
+  }
+
+  .post-title {
+    font-size: 24px;
+  }
+}

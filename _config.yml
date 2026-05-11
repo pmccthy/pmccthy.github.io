@@ -1,0 +1,53 @@
+# Jekyll configuration for GitHub Pages
+title: Patrick McCarthy
+email: pat.mccarthy1@aol.com
+description: >-
+  PhD student exploring research in [Your Field].
+  This site showcases my research projects, publications, and thoughts.
+
+# GitHub Pages settings
+url: "https://pmccthy.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Plugins for GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Minima theme customization
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:year/:month/:day/:title/
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Navigation
+header_pages:
+  - about.md
+  - projects.md
+  - publications.md
+  - contact.md
+  - blog.md
