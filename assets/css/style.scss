@@ -36,9 +36,17 @@ a:hover {
 
 .site-title {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.5px;
   color: #222;
+  border-bottom: none;
+}
+
+// Page title (e.g. "About", "Contact") — smaller and bold
+.page-heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 
 .site-title:visited {

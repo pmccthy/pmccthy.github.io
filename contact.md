@@ -20,9 +20,8 @@ I'm always interested in discussing research, potential collaborations, or oppor
 
 ### **Office**
 
-Patrick McCarthy
-
-Neural and Machine Learning Group
-Centre for Neural Circuits and Behaviour
-University of Oxford
+Patrick McCarthy<br>
+Neural and Machine Learning Group<br>
+Centre for Neural Circuits and Behaviour<br>
+University of Oxford<br>
 Oxford OX1 3SR

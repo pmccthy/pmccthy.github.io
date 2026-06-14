@@ -3,7 +3,6 @@ title: Patrick McCarthy
 email: patrick.mccarthy@dpag.ox.ac.uk
 description: >-
   PhD student exploring research in Neuroscience and Machine Learning.
-  This site showcases my research projects and thoughts.
 
 # GitHub Pages settings
 url: "https://pmccthy.github.io"
@@ -48,6 +47,6 @@ defaults:
 header_pages:
   - about.md
   - projects.md
-  - publications.md
+  # - publications.md  # hidden for now, re-enable when ready
   - contact.md
   - blog.md

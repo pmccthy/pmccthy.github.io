@@ -32,7 +32,7 @@ In this project, I analyse calcium imaing recordings from dmPFC of mice performi
 
 ---
 
-### Project 3: Designer waveform
+### **Project 3: Designer waveform**
 
 **Duration:** 2026 - Present
 **Status:** Ongoing
