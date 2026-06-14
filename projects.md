@@ -10,54 +10,40 @@ Here's a selection of my research projects. Click on any project to learn more.
 
 ---
 
-### Project 1: [Project Title]
+### Project 1: Neural geometry of value representations in RNNs
 
-**Duration:** [Start Year] – Present  
+**Duration:** 2026 – Present  
 **Status:** Ongoing
 
-A brief description of your first research project. What's the main research question? What methods are you using? What are the expected outcomes?
+In this project, I train RNN models to perform simple cognitive tasks through reinforcement learning and then analyse the model representations to understand the computational mechanisms which arise. With these simple toy models, we can answer fundamental questions. I am interested in context-dependent value representations, where the same items can take different values across different contexts. In particular I am interested in two alternative computational mechanisms: conjunctive representations, in which a distinct subspace represents value across different contexts, and factorised representations, in which the same value subspace is reused across contexts. Each of these have advantages and disadvantages, and I am working to map out the space of tasks in which the optimal representation is one or the other. I have developed a value decoding generalisation test which can be used to measure which of these representations is present in the model. I then verify this using causal manipulations such as ablations and activation steering. My goal is to use my models to make experimentally testable predictions about value coding in the brain in a range of task conditions.
 
-**Key Contributions:**
-- Contribution 1
-- Contribution 2
-- Contribution 3
-
-**Technologies/Methods:** [List relevant tools, techniques, or methodologies]
+**Technologies/Methods:** Low-rank RNNs; reinforcement learning; linear decoding; dynamical systems analysis; activation steering; ablations.
 
 ---
 
-### Project 2: [Project Title]
+### Project 2: Neural representations underlying value-guided decision-making in the PFC
 
-**Duration:** [Start Year] – [End Year]  
-**Status:** Completed
+**Duration:** 2025 – Present  
+**Status:** Ongoing
 
-A brief description of your second research project.
+In this project, I analyse calcium imaing recordings from dmPFC of mice performing a visual Pavlovian reversal learning task to identify the subspaces encoding variables such as stimulus indetity, value and context. Alongside this, I train neural network models to perform an analogous task and find the conditions which reproduce the experimental data. I am specifically interested in the extent to which representational similarity determines similarity of lick responses for different stimuli.
 
-**Key Contributions:**
-- Contribution 1
-- Contribution 2
-
-**Publications:**
-- [Publication Title](link-to-paper) (Year)
+**Technologies/Methods:** Targeted dimensionality reduction; neural decoding; neural encoding; selectivity analysis; optophysiological data analysis.
 
 ---
 
-### Project 3: [Project Title]
+### Project 3: Designer waveform
 
-**Duration:** [Start Year] – Present  
+**Duration:** 2026 - Present
 **Status:** Ongoing
 
-Description of your third project.
+Typical optogenetic stimulation protocols do not produce the same population-level activity as natural sensory input, partally due to strong synchronous stimulation. In this project, I am developing tools to find stimulation waveforms that evoke more naturalistic activity. Given a target population response (e.g. a PSTH recorded during natural stimulation), it searches the space of parametric waveforms to find the stimulus shape that drives a neural population model towards that target.
 
-**Technologies/Methods:** [List relevant tools]
-
-**Links:**
-- [Project Repository](link)
-- [Project Website](link)
+**Technologies/Methods:** Spiking neural networks; gradient-free optimisation; electrophysiological data analysis.
 
 ---
 
 ## Other Interests
 
-I'm also interested in [other research areas or side projects]. Feel free to reach out if you'd like to discuss these topics or collaborate!
+I'm also interested in [other research areas or side projects]. Feel free to reach out if you'd like to discuss these topics or collaborate! I also like to play around with ...
 

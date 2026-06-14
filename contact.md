@@ -10,31 +10,19 @@ I'm always interested in discussing research, potential collaborations, or oppor
 
 ### Email
 
-**pat.mccarthy1@aol.com**
+**patrick.mccarthy@dpag.ox.ac.uk**
 
 ### Social & Academic Links
 
 - **GitHub:** [@pmccthy](https://github.com/pmccthy)
-- **Twitter:** [@your_handle](https://twitter.com/your_handle)
-- **LinkedIn:** [Patrick McCarthy](https://linkedin.com/in/your-profile)
-- **Google Scholar:** [Your Scholar Profile](https://scholar.google.com/)
-- **ORCID:** [Your ORCID](https://orcid.org/your-orcid)
+- **LinkedIn:** [Patrick McCarthy](https://linkedin.com/in/pmccthy)
+- **Google Scholar:** [Your Scholar Profile](https://scholar.google.com/citations?hl=en&user=IqfLIPMAAAAJ)
 
 ### Office
 
-[Your University]  
-[Department Name]  
-[Building], Room [Number]  
-[University Address]
+Patrick McCarthy
 
----
-
-## Availability
-
-I'm generally available for:
-- Research inquiries and collaboration opportunities
-- Speaking engagements on [your research topics]
-- Mentoring and advising students
-- General academic discussions
-
-Feel free to email me or reach out via any of the social links above. I typically respond within 1-2 business days.
+Neural and Machine Learning Group
+Centre for Neural Circuits and Behaviour
+University of Oxford
+Oxford OX1 3SR
