@@ -24,7 +24,7 @@ I developed my interests in computational neuroscience, machine learning and neu
 
 ### **Education**
 
-**PhD in Neuroscience and Machine Learning**  
+**PhD in Neuroscience & Machine Learning**  
 University of Oxford, 2028
 
 **MEng in Biomedical Engineering** 

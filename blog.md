@@ -4,8 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-## Blog Posts
-
 I occasionally write about research, methodology, tools, and other academic interests.
 
 <div class="post-list">
@@ -24,9 +22,3 @@ I occasionally write about research, methodology, tools, and other academic inte
   </article>
   {%- endfor -%}
 </div>
-
----
-
-## Subscribe
-
-Consider [subscribing to the RSS feed]({{ "/feed.xml" | relative_url }}) to get new posts delivered to your reader.

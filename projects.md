@@ -6,7 +6,7 @@ permalink: /projects/
 
 ## **Research Projects**
 
-Here's a selection of my research projects. Click on any project to learn more.
+Here's a selection of my research projects.
 
 ---
 

@@ -1,15 +1,14 @@
 ---
-layout: home
+layout: null
+sitemap: false
+permalink: /
 ---
-
-# Welcome
-
-I'm a PhD student passionate about [your research area]. This site showcases my research projects, publications, and ongoing thoughts.
-
-## Featured Work
-
-Check out my [research projects](/projects/) and [publications](/publications/) to learn more about what I'm working on.
-
----
-
-*Last updated: {{ site.time | date: "%B %d, %Y" }}*
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=/about/">
+  <script>window.location.replace("/about/");</script>
+</head>
+<body></body>
+</html>
