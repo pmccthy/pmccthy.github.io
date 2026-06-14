@@ -4,13 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-## Research Projects
+## **Research Projects**
 
 Here's a selection of my research projects. Click on any project to learn more.
 
 ---
 
-### Project 1: Neural geometry of value representations in RNNs
+### **Project 1: Neural geometry of value representations in RNNs**
 
 **Duration:** 2026 – Present  
 **Status:** Ongoing
@@ -21,7 +21,7 @@ In this project, I train RNN models to perform simple cognitive tasks through re
 
 ---
 
-### Project 2: Neural representations underlying value-guided decision-making in the PFC
+### **Project 2: Neural representations underlying value-guided decision-making in the PFC**
 
 **Duration:** 2025 – Present  
 **Status:** Ongoing
