@@ -1,9 +1,9 @@
 # Jekyll configuration for GitHub Pages
 title: Patrick McCarthy
-email: pat.mccarthy1@aol.com
+email: patrick.mccarthy@dpag.ox.ac.uk
 description: >-
-  PhD student exploring research in [Your Field].
-  This site showcases my research projects, publications, and thoughts.
+  PhD student exploring research in Neuroscience and Machine Learning.
+  This site showcases my research projects and thoughts.
 
 # GitHub Pages settings
 url: "https://pmccthy.github.io"

@@ -40,10 +40,3 @@ In this project, I analyse calcium imaing recordings from dmPFC of mice performi
 Typical optogenetic stimulation protocols do not produce the same population-level activity as natural sensory input, partally due to strong synchronous stimulation. In this project, I am developing tools to find stimulation waveforms that evoke more naturalistic activity. Given a target population response (e.g. a PSTH recorded during natural stimulation), it searches the space of parametric waveforms to find the stimulus shape that drives a neural population model towards that target.
 
 **Technologies/Methods:** Spiking neural networks; gradient-free optimisation; electrophysiological data analysis.
-
----
-
-## Other Interests
-
-I'm also interested in [other research areas or side projects]. Feel free to reach out if you'd like to discuss these topics or collaborate! I also like to play around with ...
-
