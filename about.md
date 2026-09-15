@@ -1,4 +1,9 @@
-<!--  -->
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 ### **Background**
 
 I'm a PhD (DPhil) student at the University of Oxford with a wide range of research interests spanning neuroscience and machine learning. In my PhD work, I primarily focus on characterising the neural representations underlying flexible, intelligent behaviour in both brains and artificial neural networks. To this end, I analyse high-dimensional neural recordings from the prefrontal cortex of mice performing value-guided decision making tasks and train RNNs to peform analogous tasks. I am specifically interested in tasks where the value of objects can vary across contexts (such as reversal learning), therefore requiring flexible behaviour. I aim to understand the kind of representations which enable this flexibility. I also develop tools for neuroscience experiments, for example to model the effects of optogenetic stimulation and use these models for optimising optogenetic stimulation parameters to evoke population activity which is closer to naturalistic activity. For more details on my PhD work, see my "Projects" section.
