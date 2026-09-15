@@ -25,6 +25,7 @@ a {
 
 a:hover {
   border-bottom-color: #2a7f62;
+  text-decoration: none;
 }
 
 .site-header {
@@ -43,6 +44,12 @@ a:hover {
   border-bottom: none;
 }
 
+.site-title:hover {
+  color: #1a73e8 !important;
+  text-decoration: none;
+  border-bottom: none;
+}
+
 .site-nav .page-link {
   color: #222;
   padding: 0 15px;
@@ -52,8 +59,9 @@ a:hover {
 }
 
 .site-nav .page-link:hover {
-  border-bottom: 2px solid #2a7f62;
-  padding-bottom: 2px;
+  border-bottom: none;
+  text-decoration: none;
+  color: #1a73e8;
 }
 
 .site-footer {
@@ -64,13 +72,27 @@ a:hover {
   color: #828282;
 }
 
-// Page/post titles — minima default is 42px, reduce to 22px
+// Page/post titles
 .post-title {
-  font-size: 22px !important;
+  font-size: 36px !important;
   font-weight: 700 !important;
-  letter-spacing: 0;
-  line-height: 1.3;
+  letter-spacing: -0.5px;
+  line-height: 1.25;
   margin-top: 1rem;
+}
+
+// The actual page/post heading (h1) should read as more prominent than the
+// h3 post-title links used in the blog list below
+h1.post-title {
+  font-size: 46px !important;
+  line-height: 1.15;
+}
+
+// The h3 title used for each post preview in the blog list — smaller than
+// both the h1 page heading and its previous shared size
+h3.post-title {
+  font-size: 28px !important;
+  line-height: 1.35;
 }
 
 .post-meta {
@@ -96,6 +118,27 @@ a:hover {
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+.post-preview .post-meta {
+  margin-bottom: 1rem;
+}
+
+.post-content .fig-narrow {
+  display: block;
+  max-width: 55%;
+  height: auto;
+  margin: 0 auto;
+}
+
+// Whole-paragraph italics (used as figure captions) get caption styling,
+// without affecting inline emphasis used mid-sentence elsewhere.
+.post-content p > em:only-child {
+  display: block;
+  font-size: 14px;
+  color: #828282;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
 }
 
 .post-list {
@@ -159,6 +202,10 @@ a:hover {
   }
 
   .post-title {
-    font-size: 20px !important;
+    font-size: 26px !important;
+  }
+
+  h1.post-title {
+    font-size: 32px !important;
   }
 }

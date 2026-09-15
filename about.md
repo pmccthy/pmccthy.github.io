@@ -35,11 +35,7 @@ Imperial College London, 2021
 - Research Engineer at CoMind Technologies, 2021-2024
 - Research Intern at Max Planck Institute for Biological Intelligence, 2020-2021
 
-### **Awards & Honors**
+### **Awards & Honours**
 
 - Radcliffe Scholarship, University of Oxford, 2024
 - Dean's List, Imperial College London, 2021
-
----
-
-Feel free to reach out if you'd like to discuss research, collaborate, or just chat!

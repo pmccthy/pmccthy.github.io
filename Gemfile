@@ -5,6 +5,9 @@ gem "minima", "~> 2.5"
 gem "jekyll-feed", "~> 0.12"
 gem "jekyll-seo-tag", "~> 2.6"
 gem "jekyll-sitemap"
+
+# Ruby 3+ dropped webrick from the standard library; jekyll serve needs it.
+gem "webrick"
 gem "github-pages", group: :jekyll_plugins
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
