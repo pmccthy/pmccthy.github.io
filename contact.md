@@ -16,7 +16,7 @@ I'm always interested in discussing research, potential collaborations, or oppor
 
 - **GitHub:** [@pmccthy](https://github.com/pmccthy)
 - **LinkedIn:** [Patrick McCarthy](https://linkedin.com/in/pmccthy)
-- **Google Scholar:** [Your Scholar Profile](https://scholar.google.com/citations?hl=en&user=IqfLIPMAAAAJ)
+- **Google Scholar:** [Your Scholar Profile](https://scholar.google.com/citations?hl=en&user=IqfLIPMAAAAJ&view_op=list_works&sortby=pubdate)
 
 ### **Office**
 

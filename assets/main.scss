@@ -4,6 +4,10 @@
 
 @charset "utf-8";
 
+// Widen the content column (minima default is 800px)
+$content-width: 960px;
+$on-large:      960px;
+
 // Import minima default styles
 @import "minima";
 
