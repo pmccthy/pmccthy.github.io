@@ -52,6 +52,6 @@ These optimised waveforms are being tested in a stimulus detection task involvin
 
 The code for this project can be found at [designer-waveform](https://github.com/pmccthy/designer-waveform).
 
-This project is a work in progress. We are currently testing the first model-optimised waveforms *in vivo*. In the next stages, we will explore strategies for optimising parameters for holographic two-photon stimulation, in which we have control over individual neurons and will optimise for a target activity vector rather than stimulating the whole population simultaneously.
+This project is a work in progress. We are currently testing the first model-optimised waveforms _in vivo_. In the next stages, we will explore strategies for optimising parameters for holographic two-photon stimulation, in which we have control over individual neurons and will optimise for a target activity vector rather than stimulating the whole population simultaneously.
 
 **Technologies/Methods:** Spiking neural networks; gradient-free optimisation; electrophysiological data analysis.

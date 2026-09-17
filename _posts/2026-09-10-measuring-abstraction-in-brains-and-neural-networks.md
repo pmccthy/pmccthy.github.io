@@ -32,7 +32,7 @@ In order to ask questions about abstraction over a feature of interest, we need 
 
 The experiment went like this: monkeys had to fixate on a screen and hold down a button, and would then be presented with one of 4 images on the screen. Depending on the image, the correct response would either be to continue holding the button or to release it. Half of these images would be followed by a reward for the correct response, whilst the others would not. The monkeys would be trained to perform this task and then at a random trial the stimulus-response-outcome mappings would change to a new ruleset, defining two different "contexts".
 
-![Panel A shows the sequence of events within a trial: ITI (1750 ms), fixation (400 ms), stimulus (500 ms), response (H/R, <= 900 ms), and outcome (+/-). Panel B shows the stimulus-response-outcome mappings for each of the four fractal images across the two contexts.](/assets/images/posts/abstraction/task.png)
+<img style="width: 100%; height: auto;" src="/assets/images/posts/abstraction/task.png" alt="Panel A shows the sequence of events within a trial: ITI (1750 ms), fixation (400 ms), stimulus (500 ms), response (H/R, <= 900 ms), and outcome (+/-). Panel B shows the stimulus-response-outcome mappings for each of the four fractal images across the two contexts.">
 
 *Fig. 1 from Bernardi et al. 2020. Panel B columns show each image's correct response (R = release, H = hold) and reward outcome (+/-) in each context.*
 
