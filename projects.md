@@ -17,7 +17,7 @@ In this project, I aim to uncover the neural representations that enable value-b
 
 I take several complementary approaches: targeted dimensionality reduction to find task-relevant neural subspaces, selectivity-based analysis to define functional subpopulations of neurons, and decoding to ask which variables are represented and whether these representations are conserved across reversals in reward contingency.
 
-I then train recurrent neural networks (RNNs) to perform an analogous task and analyse their resulting representations. I am particularly interested in how different learning rules shape these representations, and whether aligning model representations to experimental data can reveal something about how learning occurs in dmPFC. To investigate this, I train RNN variants whose hidden representations are shaped by reinforcement learning, self-supervised learning, or a combination of both, and compare the resulting representations to the experimental data using statistical goodness-of-fit tests and representational similarity analysis (RSA).
+I then train recurrent neural networks (RNNs) to perform an analogous task and analyse their resulting representations. I am particularly interested in how different learning rules shape these representations, and whether aligning model representations to experimental data can reveal something about how learning occurs in dmFC. To investigate this, I train RNN variants whose hidden representations are shaped by reinforcement learning, self-supervised learning, or a combination of both, and compare the resulting representations to the experimental data using statistical goodness-of-fit tests and representational similarity analysis (RSA).
 
 
 ![data_rnn_project_summary_figure](/assets/images/projects/data_rnn_project_summary_figure.png)
@@ -30,7 +30,7 @@ This project is ongoing. I am currently focused on a retrospective form of self-
 
 ---
 
-## **Project 2: Designer waveform**
+## **Project 2: Designer waveforms for optogenetic stimulation**
 
 **Duration:** 2026 - Present  
 **Status:** Ongoing
