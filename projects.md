@@ -13,7 +13,7 @@ Here's a brief overview of some of my ongoing research projects.
 **Duration:** 2026 – Present  
 **Status:** Ongoing
 
-In this project, I aim to uncover the neural representations that enable value-based decision-making in the dorsomedial prefrontal cortex (dmPFC), using a combination of neural data analysis and neural network-based modelling. I analyse calcium imaging recordings from the dmPFC of mice performing a visual Pavlovian reversal learning task, in which reward contingencies periodically switch, to identify how the brain encodes variables such as stimulus identity, value, and task context (i.e., which reversal phase the animal is in).
+In this project, I aim to uncover the neural representations that enable value-based decision-making in the dorsomedial prefrontal cortex (dmFC), using a combination of neural data analysis and neural network-based modelling. I analyse calcium imaging recordings from the dmFC of mice performing a visual Pavlovian reversal learning task, in which reward contingencies periodically switch, to identify how the brain encodes variables such as stimulus identity, value, and task context (i.e., which reversal phase the animal is in).
 
 I take several complementary approaches: targeted dimensionality reduction to find task-relevant neural subspaces, selectivity-based analysis to define functional subpopulations of neurons, and decoding to ask which variables are represented and whether these representations are conserved across reversals in reward contingency.
 
