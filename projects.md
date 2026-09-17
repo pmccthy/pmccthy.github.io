@@ -8,7 +8,7 @@ Here's a brief overview of some of my ongoing research projects.
 
 ---
 
-### **Project 1: Neural representations in dmFC and RNNs**
+## **Project 1: Reverse engineering neural representations in dmFC with RNNs**
 
 **Duration:** 2026 – Present  
 **Status:** Ongoing
@@ -30,7 +30,7 @@ This project is ongoing. I am currently focused on a retrospective form of self-
 
 ---
 
-### **Project 2: Designer waveform**
+## **Project 2: Designer waveform**
 
 **Duration:** 2026 - Present  
 **Status:** Ongoing
