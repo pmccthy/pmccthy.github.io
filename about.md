@@ -26,6 +26,7 @@ I developed my interests in computational neuroscience, machine learning and neu
 
 **PhD in Neuroscience & Machine Learning**
 University of Oxford, 2028
+
 **MEng in Biomedical Engineering**
 Imperial College London, 2021 (First Class Honours)
 
