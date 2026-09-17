@@ -22,7 +22,7 @@ I then train recurrent neural networks (RNNs) to perform an analogous task and a
 
 ![data_rnn_project_summary_figure](/assets/images/projects/data_rnn_project_summary_figure.png)
 
-Three RNN variants, example TDR projections and RSA matrices to be compared with experimental equivalents (unpublished so cannot show experimental data here).
+*Three RNN variants, example TDR projections and RSA matrices to be compared with experimental equivalents (unpublished so cannot show experimental data here).*
 
 This project is ongoing. I am currently focused on a retrospective form of self-supervised learning within this simplified task. In the next stages, I plan to extend this to predictive self-supervised learning across a wider range of tasks, including those that require learning a state-transition model to successfully obtain reward.
 
@@ -32,7 +32,7 @@ This project is ongoing. I am currently focused on a retrospective form of self-
 
 ### **Project 2: Designer waveform**
 
-**Duration:** 2026 - Present
+**Duration:** 2026 - Present  
 **Status:** Ongoing
 
 Typical optogenetic stimulation protocols do not produce the same population-level activity as natural sensory input, partly because they rely on strong, synchronous stimulation of all neurons at once. In this project, I am developing tools to find stimulation waveforms that evoke more naturalistic neural activity.
@@ -47,10 +47,11 @@ These optimised waveforms are being tested in a stimulus detection task involvin
 *An example of a waveform optimised to fit Allen Visual Coding natural image responses for the ChRmine opsin.*
 
 ![waveforms_and_responses](/assets/images/projects/waveforms_and_responses.png)
+
 *Left: model-optimised waveform and control square stimulation waveforms. Right: Model responses to these three waveforms.*
 
 The code for this project can be found at [designer-waveform](https://github.com/pmccthy/designer-waveform).
 
-This project is a work in progress. We are currently testing the first model-optimised waveforms _in vivo_. In the next stages, we will explore strategies for optimising parameters for holographic two-photon stimulation, in which we have control over individual neurons and will optimise for a target activity vector rather than stimulating the whole population simultaneously.
+This project is a work in progress. We are currently testing the first model-optimised waveforms *in vivo*. In the next stages, we will explore strategies for optimising parameters for holographic two-photon stimulation, in which we have control over individual neurons and will optimise for a target activity vector rather than stimulating the whole population simultaneously.
 
 **Technologies/Methods:** Spiking neural networks; gradient-free optimisation; electrophysiological data analysis.
