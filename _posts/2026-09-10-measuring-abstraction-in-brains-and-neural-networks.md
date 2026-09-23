@@ -28,7 +28,7 @@ Distance in this space gives us a natural measure of representational similarity
 
 ## Designing an experiment for abstraction
 
-To ask questions about abstraction over a feature of interest, we need it to vary independently of other features. This permits us to split the data into groups of two – a process called "dichotomisation", which I'll dive into soon – such that each group differs by only one of these features, but contains trials for all values of the other features. We can achieve this with considered experimental design. Bernardi *et al* designed a behavioural experiment with monkeys which gave them 8 different conditions that enabled them to dissociate representations of context, value and action from neural recordings.
+To ask questions about abstraction over a feature of interest, we need it to vary independently of other features. This permits us to split the data into groups of two – a process called "dichotomisation", which I'll dive into soon – such that each group differs by only one of these features, but contains trials for all values of the other features. We can achieve this with considered experimental design. Bernardi et al designed a behavioural experiment with monkeys which gave them 8 different conditions that enabled them to dissociate representations of context, value and action from neural recordings.
 
 The experiment went like this: the monkeys had to fixate on a screen and hold down a button, and would then be presented with 1 of 4 images on the screen. Depending on the image, the correct response would either be to continue holding the button or to release it. Half of these images would be followed by a reward for the correct response, but the other half would not. The monkeys would be trained to perform this task and then at a random trial the stimulus-response-outcome mappings would change to a new ruleset, defining two different "contexts".
 
@@ -40,7 +40,7 @@ Notice that from these 8 conditions we can create a dichotomy for action (hold/r
 
 ## Cross-condition generalisation performance
 
-Cross-condition generalisation performance (CCGP) is a decoding-based metric that, with the right conditions, can be used to measure abstraction. It is one of the key contributions of the Bernardi *et al* paper.
+Cross-condition generalisation performance (CCGP) is a decoding-based metric that, with the right conditions, can be used to measure abstraction. It is one of the key contributions of the Bernardi et al paper.
 
 It starts with dichotomisation. Now we have the 8 conditions outlined above, we can split them up into groups of two. Having built these dichotomies, we can then train a linear classifier to discriminate the conditions on one side of the dichotomy from the conditions on the other. With 8 conditions, there are 35 possible dichotomies ($\frac{1}{2}\binom{8}{4} = 35$, since A vs B is the same dichotomy as B vs A), including three "special" dichotomies which have a clear interpretation: context (contexts 1 and 2 on opposite sides), value (rewarded/unrewarded on opposite sides), and action (release and hold on opposite sides).
 
@@ -54,7 +54,7 @@ CCGP's key difference from regular cross-validated decoding accuracy is that the
 
 ## Parallelism score
 
-Now we have defined CCGP, let's introduce another metric and key contribution of the Bernardi paper: the parallelism score (PS).
+Now we have defined CCGP, let's introduce another metric and key contribution of the Bernardi et al paper: the parallelism score (PS).
 
 When you think about why a decoder might generalise, it is because the axis separating two conditions of interest is shared across contexts. Another way to measure this, without training any decoders, is to draw a line between the centres of the clusters encoding a pair of conditions on either side of a dichotomy and within an interpretable group (e.g. the line connecting the high-value trials for context 1 and context 2). We could also draw a line between the low-value trials for context 1 and 2. If the context representation is abstract, then these two coding vectors should align, and we can check this by measuring the angle between them. This is essentially what the parallelism score does, except it considers all possible coding vectors for a given dichotomy and takes the maximum over all pairings.
 
