@@ -37,14 +37,14 @@ This project is ongoing. I am currently focused on a retrospective form of self-
 
 Typical optogenetic stimulation protocols do not produce the same population-level activity as natural sensory input, partly because they rely on strong, synchronous stimulation of all neurons at once. In this project, I am developing tools to find stimulation waveforms that evoke more naturalistic neural activity.
 
-Given a target population response (e.g., a peristimulus time histogram, or PSTH, recorded during natural stimulation), the tool searches the space of parametric waveforms to find the stimulus shape that drives a neural population model toward that target. On each optimisation step, the candidate waveform is fed as input to a spiking neural network model of a representative population of V1 neurons (with multiple possible opsins, the light-sensitive proteins used to control neural activity). The resulting simulated population activity is compared to the target, and the error is computed as a scalar objective function. The waveform parameters are then updated to reduce this error, and the process is repeated until a convergence criterion is reached.
+Given a target population response (e.g., a peristimulus time histogram, or PSTH, recorded during natural stimulation; we use natural image responses from the Allen Brain Observatory Visual Coding dataset), the tool searches the space of parametric waveforms to find the stimulus shape that drives a neural population model toward that target. On each optimisation step, the candidate waveform is fed as input to a spiking neural network model of a representative population of V1 neurons expressing an opsin (the light-sensitive proteins used to control neural activity); the model is currently compatible with the ChRmine and C1V1 opsins. The resulting simulated population activity is compared to the target, and the error is computed as a scalar objective function. The waveform parameters are then updated to reduce this error, and the process is repeated until a convergence criterion is reached.
 
 These optimised waveforms are being tested in a stimulus detection task involving both natural and artificial (optogenetically driven) stimuli. We are using this task to ask a simple question: without the privilege of full control over individual neurons in the population (as we would get from holographic stimulation), but only a single shared waveform delivered to the entire population, can shaping that waveform still evoke behavioural report rates closer to those seen with natural images, compared to standard square-pulse stimulation?
 
 
-![increasing_l23_l23_optimised_waveform](/assets/images/projects/increasing_l23_l23_optimised_waveform.png)
+![designer_waveform_schematic](/assets/images/projects/designer_waveform_schematic.png)
 
-*An example of a waveform optimised to fit Allen Visual Coding natural image responses for the ChRmine opsin.*
+*Schematic of the optimisation loop. A candidate waveform drives a spiking network model of opsin-expressing V1 neurons; the population-averaged response is compared to the target, and the waveform parameters are updated until the mismatch falls below a threshold, yielding the optimised waveform.*
 
 ![waveforms_and_responses](/assets/images/projects/waveforms_and_responses.png)
 
