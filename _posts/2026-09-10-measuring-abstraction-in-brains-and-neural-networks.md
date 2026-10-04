@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Measuring abstraction in brains and neural networks"
+title: "Measuring Abstraction in Brains and Neural Networks"
 date: 2026-09-10
 categories: [neuroscience, machine-learning]
 mathjax: true
