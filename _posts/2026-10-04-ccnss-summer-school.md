@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 weeks of computational neuroscience in China"
-date: 2026-10-04
+date: 2026-09-04
 ---
 
 Earlier this summer I was lucky enough to attend the Computational & Cognitive Neuroscience Summer School (CCNSS) in Suzhou, China! This three-week intensive course was hosted by Cold Spring Harbor Asia and covered a broad set of topics on the computational neuroscience of cognition at all scales, from synaptic plasticity rules all the way to whole-brain modelling.
