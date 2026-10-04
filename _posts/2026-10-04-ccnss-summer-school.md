@@ -22,7 +22,7 @@ MetaRL was first introduced in two papers which came out around the same time in
 
 They trained mice on an odour-reward task where the contingencies either stayed fixed or reversed every session (the "stable" and "dynamic" tasks, respectively). Mice in the dynamic task got faster at updating value, but they also became much more forgetful. Their value memory dropped to chance after a one-day break, or even a five-minute pause, whereas stable-task mice remembered for over a week. That's exactly what you'd expect if value is being held in activity rather than stored in synapses.
 
-![Effect of ITI length on value discrimination in the stable versus dynamic tasks](/assets/china/uchida_iti_effect.png)
+<img class="fig-center" style="width: 216px;" src="/assets/images/posts/china/uchida_iti_effect.png" alt="Effect of ITI length on value discrimination in the stable versus dynamic tasks">
 
 *Illustration of the effect of ITI length on value discrimination in the stable versus dynamic tasks. Adapted from [Lee et al.](https://www.biorxiv.org/content/10.64898/2025.11.30.691382v3)*
 
@@ -42,7 +42,7 @@ To illustrate this point he presented a [paper from his lab](https://doi.org/10.
 2. **Rescaling.** Each neuron keeps its tuning but changes how strongly it modulates, like turning volume knobs up or down.
 3. **Reassociation.** The population keeps the same repertoire of activity patterns it already had, but reassigns which pattern is used for which intended movement.
 
-![The three hypotheses for how population activity could change during learning](/assets/china/yu_learning_fig.png)
+<img class="fig-center" style="width: 85%;" src="/assets/images/posts/china/yu_learning_fig.png" alt="The three hypotheses for how population activity could change during learning">
 
 *From Fig. 2 of [Golub et al. 2018](https://doi.org/10.1038/s41593-018-0095-3).*
 
@@ -68,7 +68,7 @@ Overall I thought the summer school was great! The lectures covered a broad set 
 
 Aside from this, I made some great friends and had a lot of fun exploring China. It was my first time there so naturally I found it fascinating to experience for myself a country that we hear so much about in Western media and yet know very little about. The course itself kept us pretty busy but we still found time to go for hotpot, drink plum wine by the lake at sunset, and explore the city. Suzhou itself is a beautiful city famous for its classical gardens (a UNESCO World Heritage Site that includes two of China's four most celebrated gardens), old canals, and lots of great restaurants. CSHA is located a little outside of the city on Dushu Lake, a beautiful location where people are usually doing all kinds of watersports. On one day of the course, the lectures finished early and we went paddle boarding ourselves. On other days, we did things like rock climbing, got Chinese BBQ for dinner, and drank lots of bubble tea. It was really cool to meet people from all over the world and compare our PhD experiences. Suzhou is very close by train to other major cities like Shanghai, Hangzhou and Nanjing, so it's very easy to explore more of China if you get the chance to stick around.
 
-![](/assets/china/csha_group_picture.png)
+<img class="fig-center" style="width: 100%;" src="/assets/images/posts/china/csha_group_picture_web.jpg" alt="Group photo of the CCNSS 2026 participants at Cold Spring Harbor Asia">
 
 In summary, I'd highly recommend it to anyone doing a PhD in computational neuroscience who wants the chance to explore outside of their topic and spend a few weeks exploring China!
 

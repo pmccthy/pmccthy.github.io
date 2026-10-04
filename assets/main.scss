@@ -128,6 +128,13 @@ h3.post-title {
   margin-bottom: 1rem;
 }
 
+.post-content .fig-center {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
+
 .post-content .fig-narrow {
   display: block;
   max-width: 55%;
