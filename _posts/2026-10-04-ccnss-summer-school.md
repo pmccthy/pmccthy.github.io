@@ -6,6 +6,8 @@ date: 2026-09-04
 
 Earlier this summer I was lucky enough to attend the Computational & Cognitive Neuroscience Summer School (CCNSS) in Suzhou, China! This three-week intensive course was hosted by Cold Spring Harbor Asia and covered a broad set of topics on the computational neuroscience of cognition at all scales, from synaptic plasticity rules all the way to whole-brain modelling.
 
+<img class="fig-center" style="width: 100%;" src="/assets/images/posts/china/csha_group_picture_web.jpg" alt="Group photo of the CCNSS 2026 participants at Cold Spring Harbor Asia">
+
 ### **Highlights**
 
 Over the 3 weeks we had around 30 lectures, which is a lot of information to try and absorb (and towards the end I was really struggling to take more in!). Given this, I thought I'd take some time to take stock of what I learnt and summarise some of the highlights. All the lectures were great, but below I've summarised a couple of my favourites that left the biggest impression on me.
@@ -68,9 +70,11 @@ Overall I thought the summer school was great! The lectures covered a broad set 
 
 Aside from this, I made some great friends and had a lot of fun exploring China. It was my first time there so naturally I found it fascinating to experience for myself a country that we hear so much about in Western media and yet know very little about. The course itself kept us pretty busy but we still found time to go for hotpot, drink plum wine by the lake at sunset, and explore the city. Suzhou itself is a beautiful city famous for its classical gardens (a UNESCO World Heritage Site that includes two of China's four most celebrated gardens), old canals, and lots of great restaurants. CSHA is located a little outside of the city on Dushu Lake, a beautiful location where people are usually doing all kinds of watersports. On one day of the course, the lectures finished early and we went paddle boarding ourselves. On other days, we did things like rock climbing, got Chinese BBQ for dinner, and drank lots of bubble tea. It was really cool to meet people from all over the world and compare our PhD experiences. Suzhou is very close by train to other major cities like Shanghai, Hangzhou and Nanjing, so it's very easy to explore more of China if you get the chance to stick around.
 
-<img class="fig-center" style="width: 100%;" src="/assets/images/posts/china/csha_group_picture_web.jpg" alt="Group photo of the CCNSS 2026 participants at Cold Spring Harbor Asia">
-
 In summary, I'd highly recommend it to anyone doing a PhD in computational neuroscience who wants the chance to explore outside of their topic and spend a few weeks exploring China!
+
+<img class="fig-center" style="width: 100%;" src="/assets/images/posts/china/dushu_lake_sunset.jpg" alt="Sunset over Dushu Lake, Suzhou, with the city skyline on the horizon">
+
+*Sunset over Dushu Lake.*
 
 ---
 
