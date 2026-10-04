@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "3 weeks of computational neuroscience in China"
+title: "Metalearning, Manifolds and Mandarin"
 date: 2026-09-04
 ---
 
-Earlier this summer I was lucky enough to attend the Computational & Cognitive Neuroscience Summer School (CCNSS) in Suzhou, China! This three-week intensive course was hosted by Cold Spring Harbor Asia and covered a broad set of topics on the computational neuroscience of cognition at all scales, from synaptic plasticity rules all the way to whole-brain modelling.
+Earlier this summer I was lucky enough to attend the [Computational & Cognitive Neuroscience Summer School (CCNSS)](https://www.csh-asia.org/?content/3046) in Suzhou, China! This three-week intensive course was hosted by Cold Spring Harbor Asia and covered a broad set of topics on the computational neuroscience of cognition at all scales, from synaptic plasticity rules all the way to whole-brain modelling.
 
 <img class="fig-center" style="width: 100%;" src="/assets/images/posts/china/csha_group_picture_web.jpg" alt="Group photo of the CCNSS 2026 participants at Cold Spring Harbor Asia">
 
@@ -14,11 +14,11 @@ Earlier this summer I was lucky enough to attend the Computational & Cognitive N
 
 Over the 3 weeks we had around 30 lectures, which is a lot of information to try and absorb (and towards the end I was really struggling to take more in!). Given this, I thought I'd take some time to take stock of what I learnt and summarise some of the highlights. All the lectures were great, but below I've summarised a couple of my favourites that left the biggest impression on me.
 
-**Nao Uchida - Meta-learning**
+**Nao Uchida - Metalearning**
 
 Nao Uchida gave two great lectures covering reinforcement learning theory and the history of testing RL in the brain. The highlight of his lectures for me, though, was when he talked about some work his lab has done on testing meta-reinforcement learning (metaRL) in the brain.
 
-MetaRL is one of my favourite topics and possibly the coolest idea I've come across in computational neuroscience. The idea behind metaRL is that, when you train an RNN to perform a task with some latent structure that's not provided to the network directly, it can learn to infer the latent variable and store it in its recurrent dynamics. A key feature of meta-learning RNNs is that, as well as receiving the current state observation as input, they also receive the previous reward and action. By integrating these over time through their recurrent connections, they can infer hidden variables. For example, in a reversal learning task with uncued reversals, the hidden variable is the reward "context" — which stimulus is rewarding. A meta-learning RNN learns to represent this context variable and can therefore switch its behaviour when it has accumulated enough evidence that the context has changed. The coolest thing about metaRL is that, because it relies on recurrent dynamics, it does this without plasticity. So you can switch off plasticity in the network and the model can still switch its behaviour!
+MetaRL is one of my favourite topics and possibly the coolest idea I've come across in computational neuroscience. The idea behind metaRL is that, when you train an RNN to perform a task with some latent structure that's not provided to the network directly, it can learn to infer the latent variable and store it in its recurrent dynamics. A key feature of metalearning RNNs is that, as well as receiving the current state observation as input, they also receive the previous reward and action. By integrating these over time through their recurrent connections, they can infer hidden variables. For example, in a reversal learning task with uncued reversals, the hidden variable is the reward "context" — which stimulus is rewarding. A metalearning RNN learns to represent this context variable and can therefore switch its behaviour when it has accumulated enough evidence that the context has changed. The coolest thing about metaRL is that, because it relies on recurrent dynamics, it does this without plasticity. So you can switch off plasticity in the network and the model can still switch its behaviour!
 
 In metaRL, rather than learning a set of stimulus-value associations, the slow plasticity-based learning sets the network up to perform a second kind of fast, dynamics-based learning. In other words, the network has learned to learn (hence "meta" learning).
 
@@ -80,9 +80,9 @@ In summary, I'd highly recommend it to anyone doing a PhD in computational neuro
 
 ---
 
-[^1]: The concept of meta-learning generally dates back further and there has been interesting discussion about attribution of credit for it. For a good discussion on this, see [this blog post from Lilian Weng](https://lilianweng.github.io/posts/2019-06-23-meta-rl/).
+[^1]: The concept of metalearning generally dates back further and there has been interesting discussion about attribution of credit for it. For a good discussion on this, see [this blog post from Lilian Weng](https://lilianweng.github.io/posts/2019-06-23-meta-rl/).
 
-[^2]: One notable exception is [Hattori *et al.* 2023](https://www.nature.com/articles/s41593-023-01485-3) from Takaki Komiyama's lab. They used a light-activated CaMKII inhibitor to block plasticity in mouse OFC, and found that it slowed down meta-learning of a reversal task, but had no effect on reversal behaviour once mice were experts. Silencing OFC activity, on the other hand, did impair expert behaviour, just as metaRL predicts.
+[^2]: One notable exception is [Hattori *et al.* 2023](https://www.nature.com/articles/s41593-023-01485-3) from Takaki Komiyama's lab. They used a light-activated CaMKII inhibitor to block plasticity in mouse OFC, and found that it slowed down metalearning of a reversal task, but had no effect on reversal behaviour once mice were experts. Silencing OFC activity, on the other hand, did impair expert behaviour, just as metaRL predicts.
 
 [^3]: The basolateral amygdala (BLA) is a classic site of plasticity-based value learning: synapses there strengthen during both reward and fear conditioning, and BLA activity tracks conditioned responses. This makes it a great place to test whether value learning can shift from synapses to dynamics.
 
