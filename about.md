@@ -13,22 +13,19 @@ I developed my interests in computational neuroscience, machine learning and neu
 ### **Research Interests**
 
 - Neural geometry
-- Cortical value representations
-- Reinforcement learning
-- Meta-learning
+- Cortical representations
 - Machine learning for neural data
 - Brain-computer interfaces
+- Reinforcement learning
+- Meta-learning
 - Biologically plausible learning algorithms
 - Predictive processing
 - Mechanistic interpretability
 
 ### **Education**
 
-**PhD in Neuroscience & Machine Learning**
-University of Oxford, 2028
-
-**MEng in Biomedical Engineering**
-Imperial College London, 2021 (First Class Honours)
+**PhD in Neuroscience**, University of Oxford, 2028<br>
+**MEng in Biomedical Engineering**, Imperial College London, 2021 (First Class Honours)
 
 ### **Experience**
 
