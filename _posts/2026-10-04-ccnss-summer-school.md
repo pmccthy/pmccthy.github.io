@@ -12,7 +12,7 @@ Earlier this summer I was lucky enough to attend the [Computational & Cognitive 
 
 ### **Highlights**
 
-Over the 3 weeks we had around 30 lectures, which is a lot of information to absorb! Given this, I thought I'd take some time to take stock of what I learnt. It's obviously not possible to cover it all here, but I thought I'd summarised a couple of things that left the biggest impression on me.
+Over the 3 weeks we had around 30 lectures, which is a lot of information to absorb! Given this, I thought I'd take some time to take stock of what I learnt. It's obviously not possible to cover it all here, but I thought I'd summarise a couple of things that left the biggest impression on me.
 
 **Nao Uchida - Metalearning**
 
