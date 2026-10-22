@@ -58,7 +58,7 @@ This project is a work in progress. We are currently testing the first model-opt
 
 ---
 
-## **Project 3: Hierarchical feature binding in a spiking model of the ventral visual pathway**
+## **Project 3: Hierarchical feature binding in a spiking model of the ventral pathway**
 
 **Duration:** 2021 – 2026
 **Status:** Published in *PLOS Computational Biology* (2026)
@@ -73,7 +73,7 @@ To test this, we built a spiking neural network of conductance-based leaky integ
 
 After training on datasets of related 2D shapes, neurons became selective for boundary-contour features of the shapes, and higher layers represented larger-scale combinations of those features. Repeating, precisely timed spike patterns also emerged in the higher layers. Some of these formed hierarchical feature binding circuits: three-neuron motifs in which a "binding neuron" fires only when spikes from a lower-level feature neuron and a higher-level feature neuron arrive at the same time.
 
-![feature_binding_circuit](/assets/images/projects/feature_binding_circuit.png){: width="60%" style="display:block; margin:0 auto;"}
+![feature_binding_circuit](/assets/images/projects/feature_binding_circuit.png){: width="40%" style="display:block; margin:0 auto;"}
 
 *Schematic of a three-neuron hierarchical feature binding circuit. The binding neuron (3) fires only if spikes from the lower-level feature neuron (1) and the higher-level feature neuron (2) arrive at the same time, signalling that feature 1 is part of feature 2.*
 
