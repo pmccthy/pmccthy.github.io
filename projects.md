@@ -60,7 +60,7 @@ This project is a work in progress. We are currently testing the first model-opt
 
 ## **Project 3: Hierarchical feature binding in a spiking model of the ventral pathway**
 
-**Duration:** 2021 – 2026
+**Duration:** 2021 – 2026  
 **Status:** Published in *PLOS Computational Biology* (2026)
 
 How does the brain know which visual features belong to which objects, and how those features fit together? This is the *feature binding problem*, and it is still unsolved in neuroscience. Most existing theories are either not biologically realistic or do not capture the *hierarchical* relationships between features, for example that a vertical bar is part of the letter "T". In this project, we tested a hypothesis called *binding by polychrony*. The idea is that these part–whole relationships are encoded in precisely timed, repeating patterns of spikes across groups of neurons, known as polychronous neuronal groups.
