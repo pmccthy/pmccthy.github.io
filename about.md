@@ -24,7 +24,7 @@ I developed my interests in neuroscience, machine learning and neurotechnology w
 
 ### **Education**
 
-**PhD in Neuroscience**, University of Oxford, 2028<br>
+**PhD in Neuroscience & Machine Learning**, University of Oxford, 2028<br>
 **MEng in Biomedical Engineering**, Imperial College London, 2021 (First Class Honours)
 
 ### **Experience**

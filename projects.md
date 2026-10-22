@@ -55,6 +55,7 @@ The code for this project can be found at [designer-waveform](https://github.com
 This project is a work in progress. We are currently testing the first model-optimised waveforms in vivo. In the next stages, we will explore strategies for optimising parameters for holographic two-photon stimulation, in which we have control over individual neurons and will optimise for a target activity vector rather than stimulating the whole population simultaneously.
 
 **Technologies/Methods:** Spiking neural networks; gradient-free optimisation; electrophysiological data analysis.
+
 ---
 
 ## **Project 3: Hierarchical feature binding in a spiking model of the ventral visual pathway**
@@ -66,13 +67,13 @@ How does the brain know which visual features belong to which objects, and how t
 
 To test this, we built a spiking neural network of conductance-based leaky integrate-and-fire neurons, in Brian2, that mirrors the primate ventral visual pathway. Gabor-filtered images, mimicking V1 simple cells, drive a Poisson input layer. This feeds four layers modelled on V2, V4, TEO and TE, which are connected by bottom-up, top-down and lateral synapses with axonal conduction delays. The network learns without supervision through spike-timing-dependent plasticity (STDP) and competition between neurons.
 
-![feature_binding_model_schematic](/assets/images/projects/feature_binding_model_schematic.png)
+![feature_binding_model_schematic](/assets/images/projects/feature_binding_model_schematic.png){: width="60%" style="display:block; margin:0 auto;"}
 
 *Schematic of the spiking model of the primate ventral visual pathway. Gabor-filtered input images drive a Poisson input layer, which feeds four layers of excitatory and inhibitory neurons modelled on V2, V4, TEO and TE, with bottom-up, top-down and lateral connections.*
 
 After training on datasets of related 2D shapes, neurons became selective for boundary-contour features of the shapes, and higher layers represented larger-scale combinations of those features. Repeating, precisely timed spike patterns also emerged in the higher layers. Some of these formed hierarchical feature binding circuits: three-neuron motifs in which a "binding neuron" fires only when spikes from a lower-level feature neuron and a higher-level feature neuron arrive at the same time.
 
-![feature_binding_circuit](/assets/images/projects/feature_binding_circuit.png)
+![feature_binding_circuit](/assets/images/projects/feature_binding_circuit.png){: width="60%" style="display:block; margin:0 auto;"}
 
 *Schematic of a three-neuron hierarchical feature binding circuit. The binding neuron (3) fires only if spikes from the lower-level feature neuron (1) and the higher-level feature neuron (2) arrive at the same time, signalling that feature 1 is part of feature 2.*
 
