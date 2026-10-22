@@ -12,8 +12,8 @@ I developed my interests in neuroscience, machine learning and neurotechnology w
 
 ### **Research Interests**
 
-- Neural geometry
 - Cortical representations
+- Neural geometry
 - Machine learning for neural data
 - Brain-computer interfaces
 - Reinforcement learning
